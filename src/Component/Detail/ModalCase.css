@@ -1,0 +1,25 @@
+.modal-show {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.modal-content {
+    text-align: center;
+    margin: 5% 10%;
+    width: auto;
+    border: solid;
+    border-color: var(--bg-color);
+    border-radius: 5px;
+    background-color: darkslateblue;
+}
+
+.modal-content h2 {
+    color: white;
+    text-align: center;
+}

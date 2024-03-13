@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.More-container{
+    padding-bottom: 50px;
+}
+
+.h1-More {
+    font-family: "Satisfy", cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    /* Color shift animation */
+    background: linear-gradient( red, orange, yellow, pink, aqua);
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: hue 8s infinite linear;
+}
+
+.More-container-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.More-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+    width: 70ch; /* Set the width of the form */
+    max-width: 80%; /* Set a max-width */
+}
+

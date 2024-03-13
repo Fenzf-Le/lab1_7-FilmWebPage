@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+.h1-contact {
+    font-family: 'Patua One', serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 58px;
+    text-align: center;
+    /* margin: 0; */
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+/* LeftSide Decoration */
+.gallery {
+    --size: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.gallery img {
+    object-fit: cover;
+    width: var(--size);
+    height: var(--size);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transition: clip-path 0.25s, filter 0.75s;
+    border-radius: 5px;
+}
+
+.gallery img:hover {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+    transition: clip-path 0.25s, filter 0.25s;
+}
+
+.gallery img:focus {
+    outline: 1px dashed black;
+    outline-offset: -5px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: 20px; */
+}
+
+.contact-form_transBG{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 20px ;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items on smaller screens */
+    }
+
+    .contact-form {
+        margin-left: 0;
+        /* Remove the left margin on smaller screens */
+    }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+.news-container{
+    padding-bottom: 70px;
+}
+
+.news-img{
+    width: 20%;
+    height: 70%;
+    margin-right: 20px;
+}
+
+.news-title{
+    font-family: 'Passion One', sans-serif !important;
+    font-size: 30px !important;
+    margin-bottom: 8px 
+}

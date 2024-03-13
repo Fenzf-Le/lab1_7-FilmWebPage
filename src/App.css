@@ -1,4 +1,12 @@
-.App {
+/* Import Google Fonts stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+:root{ 
+  --bg-color: rgba(67, 2, 179, 0.9);
+  --main-color: #780aff
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +43,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.overlay { 
+  position: fixed; 
+  top: 0; 
+  bottom: 0; 
+}
+
+.background{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100vw;
 }

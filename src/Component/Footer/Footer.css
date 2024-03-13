@@ -1,0 +1,29 @@
+.footer{
+    background-color: var(--bg-color);
+    color: white;
+    font-weight: 420;
+    text-align: center;
+    align-items: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0%;
+    width: 100%;
+    cursor: default;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+span{
+    font-size: 90%;
+}
+
+.icon{
+    color: rgb(254, 188, 106);
+}
+
